@@ -1,0 +1,13 @@
+Ejemplos Prácticos
+2 ejemplos
+
+Ejercicios Básicos de Procesos Selectivos (Condiciones)
+5 ejercicios
+BUCLES
+8 ejercicios
+ARREGLOS
+5 ejercicios
+CADENAS
+10 ejercicios
+
+2+5+8+5+10 = 30
