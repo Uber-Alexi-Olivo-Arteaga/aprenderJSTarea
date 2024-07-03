@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vicious Soft</title>
+  <link rel="stylesheet" href="../../styles/style2.css">
+  <link rel="icon" href="../../img/logos/logo.png" type="image/png">
+  <meta name="description" content="Descripción de la página para SEO">
+</head>
+<body>
+  <header class="header">
+    <nav class="navP">
+      <div class="navLogo">
+        <a href="../../index.html">
+          <img class="imgLogo" src="../../img/logos/logo.png" alt="">
+          <p class="textNav">Vicious Software</p>
+        </a>
+      </div>
+      <div class="navLinks">
+        <a href="../webNumeros.html" class="navLink">números</a>
+        <a href="../webArreglos.html" class="navLink">arreglos</a>
+        <a href="../webCadenas.html" class="navLink">cadenas</a>
+      </div>
+    </nav>
+  </header>
+    <main class="contenedorM2">
+      <div class="tituloSub">
+        <h1 class="h1Principal">ejercicio 9</h1>
+        <h2 class="h2Principal">
+          Elementos mayores que un valor dado: Crea un programa que permita al
+          usuario ingresar 8 números en un arreglo y luego pregunte al usuario por un
+          valor específico, e imprima todos los números en el arreglo que sean mayores
+          que ese valor.
+        </h2>
+      </div>
+    <form id="formulario">
+      <div class="grupoForm">
+        <label for="num" class="label">Números (separados por ;)</label>
+        <input type="text" id="num" placeholder="Ingrese números">
+      </div>
+      <div class="grupoForm">
+        <label for="valor" class="label">Valor específico</label>
+        <input type="number" id="valor" placeholder="Ingrese valor">
+      </div>
+      <div class="cBotones">
+        <button type="button" class="boton" onclick="arreglos.ejer9()">aceptar</button>
+        <button type="reset" class="boton" onclick="limpiarR()">limpiar</button>
+      </div>
+      <div id="resp">
+        <p>respuesta</p>
+      </div>
+    </form>
+  </main>
+  <div class="cRegresar">
+    <a href="../webArreglos.html" class="botonR">regresar</a>
+  </div>
+  <footer class="footerPrincipal">
+    <p class="footerP">contactanos en nuestro <a class="footerA" href="mailto:uberalexiolivo@outlook.com">email</a></a></p>
+  </footer>
+  <script src="../../js/script2.js"></script>
+</body>
+</html>

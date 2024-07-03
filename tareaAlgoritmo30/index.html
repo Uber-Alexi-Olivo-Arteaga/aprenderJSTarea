@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vicious Soft.</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="icon" href="./img/logos/logo.png" type="image/png">
+  <meta name="description" content="Descripción de la página para SEO">
+</head>
+<body>
+  <header class="header">
+    <nav class="navP">
+      <div class="navLogo">
+        <a href="./index.html">
+          <img class="imgLogo" src="./img/logos/logo.png" alt="">
+          <p class="textNav">Vicious Software</p>
+        </a>
+      </div>
+      <div class="navLinks">
+        <a href="./htmls/webIntroJS.html" class="navLink">introducción a js</a>
+        <a href="./htmls/webNumeros.html" class="navLink">números</a>
+        <a href="./htmls/webArreglos.html" class="navLink">arreglos</a>
+        <a href="./htmls/webCadenas.html" class="navLink">cadenas</a>
+      </div>
+    </nav>
+  </header>
+  <main class="contenedorM">
+    <div class="tituloSub">
+      <h1 class="h1Principal">complementa tu vida con javascript</h1>
+      <h2 class="h2Principal">bienvenido, en esta web podras encontras la solución a distintos problemas</h2>
+    </div>
+    <div class="contenedorExplicacion">
+      <div class="introduccion1">
+        <h3 class="subTituloT1">introducción a la programación</h3>
+      <p class="parrafoT1">
+        La programación es el proceso de escribir instrucciones que una computadora puede entender y ejecutar.<br>
+        Estas instrucciones se escriben en lenguajes de programación como JavaScript.
+      </p>
+      <h3 class="subTituloT1">variables</h3>
+      <p class="parrafoT1">
+        Una variable es un espacio en la memoria de la computadora donde podemos almacenar datos que pueden<br>
+        cambiar a lo largo del programa. En JavaScript, declaramos variables utilizando let, const o var.
+      </p>
+      </div>
+      <div class="introduccion2">
+        <h3 class="subTituloT1">declaración y Asignación de Variables</h3>
+      <p class="parrafoT1">
+        javascript
+        let edad = 25;	// Declarar una variable llamada edad y asignarle el valor 25<br>
+        const nombre = "Ana"; // Declarar una constante llamada nombre y asignarle el valor "Ana"<br>
+        var ciudad = "Madrid"; // Declarar una variable llamada ciudad y asignarle el valor "Madrid"<br>
+        -let y const son las formas modernas de declarar variables. const se utiliza para valores que no cambiarán.<br>
+        -var es una forma más antigua y tiene un comportamiento diferente que generalmente no es preferible en programas modernos.
+      </p>
+      <h3 class="subTituloT1">procesos selectivos (condicionales)</h3>
+      <p class="parrafoT1">
+        Los procesos selectivos permiten tomar decisiones en base a condiciones.<br>
+        La estructura más común es el if.<br>
+        Sintaxis General<br>
+        javascript<br>
+        if (condición) {<br>
+        // código a ejecutar si la condición es verdadera<br>
+        } else {<br>
+        // código a ejecutar si la condición es falsa<br>
+        }<br>
+        Ejemplo en JavaScript<br>
+        javascript<br>
+        let edad = 20;<br>
+        if (edad >= 18) {<br>
+        console.log("Eres mayor de edad.");<br>
+        } else {<br>
+        console.log("Eres menor de edad.");<br>
+        }<br>
+        Explicación:<br>
+          1. Se declara una variable edad con el valor 20.<br>
+          2. Si edad es mayor o igual a 18, se imprime "Eres mayor de edad."<br>
+          3. Si edad es menor que 18, se imprime "Eres menor de edad."
+      </p>
+      <h3 class="subTituloT1">bucles (ciclos)</h3>
+      <p class="parrafoT1">
+        los bucles permiten ejecutar un bloque de código múltiples veces.<br>
+        Hay varios tipos de bucles: for, while y do-while.
+      </p>
+      <h3 class="subTituloT1">bucle for</h3>
+      <p class="parrafoT1">
+        El bucle for se usa cuando sabemos cuántas veces queremos repetir una acción.<br>
+        Sintaxis General<br>
+        javascript<br>
+        for (inicialización; condición; incremento/decremento) {<br>
+        // código a ejecutar<br>
+        }<br>
+        Ejemplo en JavaScript<br>
+        javascript<br>
+        for (let i = 0; i < 5; i++) {<br>
+        console.log("Esta es la iteración número", i);<br>
+        }<br>
+        Explicación:<br>
+            1. Inicialización: let i = 0 inicializa la variable i a 0.<br>
+            2. Condición: i < 5 el bucle se ejecuta mientras i sea menor que 5.<br>
+            3. Incremento: i++ incrementa i en 1 después de cada iteración.<br>
+        Este bucle imprimirá:<br>
+        Esta es la iteración número 0<br>
+        Esta es la iteración número 1<br>
+        Esta es la iteración número 2<br>
+        Esta es la iteración número 3<br>
+        Esta es la iteración número 4
+      </p>
+      <h3 class="subTituloT1">Bucle while</h3>
+      <p class="parrafoT1">
+        El bucle while se usa cuando no sabemos cuántas veces se ejecutará el bucle y depende de una condición<br>
+        que se evalúa antes de cada iteración.<br>
+        Sintaxis General<br>
+        javascript <br>
+        while (condición) {<br>
+        // código a ejecutar<br>
+        }<br>
+        Ejemplo en JavaScript<br>
+        javascript<br>
+        let i = 0; while (i < 5) {<br>
+        console.log("Esta es la iteración número", i); i++;<br>
+        }<br>
+        Explicación:
+            1. Condición: i < 5 el bucle se ejecuta mientras i sea menor que 5.<br>
+            2. Código a ejecutar: imprime el valor de i y luego incrementa i en 1.<br>
+        Este bucle imprimirá el mismo resultado que el ejemplo del bucle for.
+      </p>
+      <h3 class="subTituloT1">Bucle do-while</h3>
+      <p class="parrafoT1">
+        El bucle do-while es similar al while, pero siempre se ejecuta al menos una vez porque la condición se evalúa al final.<br>
+        Sintaxis General<br>
+        javascript<br>
+        do {<br>
+        // código a ejecutar<br>
+        } while (condición);<br>
+        Ejemplo en JavaScript<br>
+        javascript<br>
+        let i = 0;<br>
+        do {<br>
+        console.log("Esta es la iteración número", i); i++;<br>
+        } while (i < 5);<br>
+        Explicación:<br>
+          1. Código a ejecutar: imprime el valor de i y luego incrementa i en 1.<br>
+          2. Condición: i < 5 el bucle se sigue ejecutando mientras i sea menor que 5.
+      </p>
+      <h3 class="subTituloT1">Ejemplos Prácticos</h3>
+      <p class="parrafoT1">
+        Ejemplo 1: Sumar números del 1 al 10<br>
+        javascript<br>
+        let suma = 0;<br>
+        for (let i = 1; i <= 10; i++) { suma += i;<br>
+        }<br>
+        console.log("La suma es", suma);<br>
+        Explicación: Este bucle suma los números del 1 al 10 y almacena el resultado en la variable suma.<br>
+        Ejemplo 2: Contar números pares hasta 10 usando while<br>
+        javascript<br>
+        let i = 0;<br>
+        let contador = 0; while (i <= 10) {<br>
+        if (i % 2 === 0) {<br>
+        contador++;<br>
+        } i++;<br>
+        }<br>
+        console.log("Hay", contador, "números pares hasta 10");<br>
+        Explicación: Este bucle cuenta cuántos números pares hay desde 0 hasta 10.
+      </p>
+      <h3 class="subTituloT1">Resumen</h3>
+      <p class="parrafoT1">
+        Entender variables, condiciones y bucles es fundamental para aprender a programar.<br>
+        Las variables almacenan datos, las condiciones permiten tomar decisiones y los bucles facilitan la repetición de tareas.<br>
+        Con práctica y ejemplos, tus estudiantes dominarán estos conceptos esenciales en poco tiempo.
+      </p>
+      </div>
+    </div>
+    <div class="contenedorEjercicios">
+      <div class="ejercicios">
+        <a href="./htmls/webIntroJS.html" class="linkA">
+          <h2 class="subTitulo">introducción a js</h2>
+          <img class="imagenP" src="./img/imgs/cadenas.jpeg" alt="">
+        </a>
+      </div>
+      <div class="ejercicios">
+        <a href="./htmls/webNumeros.html" class="linkA">
+          <h2 class="subTitulo">números</h2>
+          <img class="imagenP" src="./img/imgs/numeros.jpeg" alt="">
+        </a>
+      </div>
+      <div class="ejercicios">
+        <a href="./htmls/webArreglos.html" class="linkA">
+          <h2 class="subTitulo">arreglos</h2>
+          <img class="imagenP" src="./img/imgs/arreglos.jpeg" alt="">
+        </a>
+      </div>
+      <div class="ejercicios">
+        <a href="./htmls/webCadenas.html" class="linkA">
+          <h2 class="subTitulo">cadenas</h2>
+          <img class="imagenP" src="./img/imgs/cadenas.jpeg" alt="">
+        </a>
+      </div>
+    </div>
+  </main>
+  <footer class="footerPrincipal">
+    <p class="footerP">contactanos en nuestro <a class="footerA" href="mailto:uberalexiolivo@outlook.com">email</a></a></p>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+</html>

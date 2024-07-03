@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vicious Soft</title>
+  <link rel="stylesheet" href="../../styles/style2.css">
+  <link rel="icon" href="../../img/logos/logo.png" type="image/png">
+  <meta name="description" content="Descripción de la página para SEO">
+</head>
+<body>
+  <header class="header">
+    <nav class="navP">
+      <div class="navLogo">
+        <a href="../../index.html">
+          <img class="imgLogo" src="../../img/logos/logo.png" alt="">
+          <p class="textNav">Vicious Software</p>
+        </a>
+      </div>
+      <div class="navLinks">
+        <a href="../webNumeros.html" class="navLink">números</a>
+        <a href="../webArreglos.html" class="navLink">arreglos</a>
+        <a href="../webCadenas.html" class="navLink">cadenas</a>
+      </div>
+    </nav>
+  </header>
+    <main class="contenedorM2">
+      <div class="tituloSub">
+        <h1 class="h1Principal">ejercicio 12</h1>
+        <h2 class="h2Principal">
+            <p>1. Declarar dos variables para los números</p>
+            <p>2. Usar un bucle while para restar el divisor del dividendo hasta que el dividendo
+                sea menor que el divisor.</p>
+        </h2>
+        
+      </div>
+    <form id="formulario">
+      <div class="grupoForm">
+        <label for="dividendo" class="label">Dividir dos números utilizando restas sucesivas</label>
+        <input type="number" id="dividendo" placeholder="ingrese un numero">
+        <label for="divisor" class="label"></label>
+        <input type="number" id="divisor" placeholder="ingrese un numero">
+      </div>
+      <div class="cBotones">
+        <button type="button" class="boton" onclick="clase.divicionRES()">aceptar</button>
+        <button type="reset" class="boton" onclick="limpiarR()">limpiar</button>
+      </div>
+      <div id="resp">
+        <p>respuesta</p>
+      </div>
+    </form>
+  </main>
+  <div class="cRegresar">
+    <a href="../webCadenas.html" class="botonR">regresar</a>
+  </div>
+  <footer class="footerPrincipal">
+    <p class="footerP">contactanos en nuestro <a class="footerA" href="mailto:uberalexiolivo@outlook.com">email</a></a></p>
+  </footer>
+  <script src="/js/class.js"></script>
+</body>
+</html>

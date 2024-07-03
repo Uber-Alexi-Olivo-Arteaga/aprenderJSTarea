@@ -1,0 +1,213 @@
+:root{
+  font-size: 10px;
+  --color-blanco: #ffffff;
+  --color-negro: #000000;
+  --color-1principal: #bd0000;
+  --color-2principal: #ff9900;
+  --color-3principal: #ffff00;
+  --color-1secundario: #830000;
+  --color-2secundario: #e27900;
+  --color-3secundario: #dddd00;
+  --color-1terciario: #bebebe;
+  --color-2terciario: #8a8a8a;
+  --color-3terciario: #242424;
+}
+
+/* HEADER */
+
+*{
+  margin: 0rem;
+  padding: 0rem;
+  /* border: 1px solid black; */
+  /* margin: 0.5rem; */
+}
+
+body{
+  background: var(--color-1terciario);
+  background-image: url(../img/imgs/plomotex.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header{
+  background-color: var(--color-1secundario);
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+  box-shadow: 0rem 0rem 1rem 0.1rem var(--color-1principal);
+}
+
+.navP{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+}
+
+.navLogo a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.imgLogo{
+  height: 5rem;
+  width: auto;
+}
+
+.textNav{
+  font-size: 2rem;
+  color: var(--color-blanco);
+  margin-left: 1rem;
+}
+
+.navLink {
+  color: var(--color-blanco);
+  font-size: 1.6rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.navLink:hover {
+  color: var(--color-2principal);
+}
+
+/* MAIN */
+
+.contenedorM{
+  /* background-color: #8a8a8a; */
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.tituloSub{
+  text-align: center;
+}
+
+.h1Principal{
+  color: var(--color-blanco);
+  text-align: center;
+  font-size: 6rem;
+  margin: 2rem 0rem 0rem 0rem;
+  text-transform: uppercase;
+  text-shadow: 0rem 0rem 1rem var(--color-negro);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h2Principal{
+  color: var(--color-blanco);
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem 0rem 0rem 0rem;
+  text-transform: uppercase;
+  text-shadow: 0rem 0rem 1rem var(--color-negro);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contenedorExplicacion{
+  /* padding: 1rem 1rem 1rem 1rem; */
+  background-color: var(--color-2terciario);
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.introduccion1{
+  margin: 1rem 1rem 1rem 1rem;
+  /* text-align: center; */
+  /* background-color: blue; */
+}
+
+.introduccion2{
+  /* background-color: green; */
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.subTituloT1{
+  font-size: 3rem;
+  color: var(--color-blanco);
+  text-shadow: 0rem 0rem 1rem var(--color-negro);
+  text-transform: uppercase;
+}
+
+.parrafoT1{
+  font-size: 2.5rem;
+}
+
+.contenedorEjercicios{
+  display: flex;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+  gap: 2rem 10rem;
+
+  margin: 3rem 0rem 3rem 0rem;
+}
+
+.ejercicios{
+  transition: all 0.3s ease-in-out;
+
+}
+.ejercicios:hover{
+  transform: scale(1.05);
+}
+
+.linkA{
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.subTitulo{
+  color: var(--color-blanco);
+  text-align: center;
+  font-size: 3rem;
+  margin: 0rem 0rem 2rem 0rem;
+  text-transform: uppercase;
+  text-shadow: 0rem 0rem 1rem var(--color-negro);
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.imagenP{
+  height: 30rem;
+  width: 30rem;
+  border-radius: 1.5rem;
+  box-shadow: 0rem 0rem 2rem 0.1rem var(--color-1principal);
+}
+
+/* FOOTER */
+
+.footerPrincipal {
+  background-color: var(--color-1secundario);
+  text-align: center;
+  padding: 1rem 0rem 1rem 0rem;
+  margin-top: auto;
+}
+
+.footerP {
+  color: var(--color-blanco);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.footerA{
+  color: var(--color-3principal);
+  text-decoration: none;
+}
