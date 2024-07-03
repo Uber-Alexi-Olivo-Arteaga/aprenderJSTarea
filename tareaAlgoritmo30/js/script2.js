@@ -226,5 +226,5 @@ const arreglos = new Arreglos();
 
 function limpiarR() {
   document.getElementById("resp");
-  resp.textContent = "resultado";
+  resp.textContent = "RESPUESTA";
 }

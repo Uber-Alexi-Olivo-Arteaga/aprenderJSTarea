@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vicious Soft</title>
-  <link rel="stylesheet" href="../../styles/style2.css">
+  <link rel="stylesheet" href="../../../styles/style2.css">
   <link rel="icon" href="../../img/logos/logo.png" type="image/png">
   <meta name="description" content="Descripción de la página para SEO">
 </head>
@@ -13,36 +13,31 @@
     <nav class="navP">
       <div class="navLogo">
         <a href="../../index.html">
-          <img class="imgLogo" src="../../img/logos/logo.png" alt="">
+          <img class="imgLogo" src="../../../img/logos/logo.png" alt="">
           <p class="textNav">Vicious Software</p>
         </a>
       </div>
       <div class="navLinks">
-        <a href="../webNumeros.html" class="navLink">números</a>
-        <a href="../webArreglos.html" class="navLink">arreglos</a>
-        <a href="../webCadenas.html" class="navLink">cadenas</a>
+        <a href="./htmls/webIntroJS.html" class="navLink">introducción a js</a>
+        <a href="./htmls/webNumeros.html" class="navLink">números</a>
+        <a href="./htmls/webArreglos.html" class="navLink">arreglos</a>
+        <a href="./htmls/webCadenas.html" class="navLink">cadenas</a>
       </div>
     </nav>
   </header>
     <main class="contenedorM2">
       <div class="tituloSub">
-        <h1 class="h1Principal">ejercicio 8</h1>
-        <h2 class="h2Principal">
-            <p>1. Declarar una variable para el número.</p>
-            <p>2. Usar un bucle for para encontrar los divisores propios y sumarlos.</p>
-            <p>3. Usar una condición if para verificar si la suma de los divisores es igual al
-            número.</p>
-        </h2>
-        
+        <h1 class="h1Principal">Presentar la serie de Fibonacci de n números</h1>
+        <h3 class="subTituloT1">1. Declarar una variable para n</h3>
+        <h3 class="subTituloT1">2. Usar un bucle for para generar la serie de Fibonacci.</h3>
       </div>
     <form id="formulario">
       <div class="grupoForm">
-        <label for="numero" class="label">numero perfecto</label>
-        <input type="number" id="numero" placeholder="ingrese un numero asta donde quiere presentar">
-        
+        <label for="n" class="label">Presentar la serie de Fibonacci de n números</label>
+        <input type="number" id="n" placeholder="ingrese un numero">
       </div>
       <div class="cBotones">
-        <button type="button" class="boton" onclick="clase.numeroperfect()">aceptar</button>
+        <button type="button" class="boton" onclick="ejercicios.ejer13()">aceptar</button>
         <button type="reset" class="boton" onclick="limpiarR()">limpiar</button>
       </div>
       <div id="resp">
@@ -51,11 +46,11 @@
     </form>
   </main>
   <div class="cRegresar">
-    <a href="../webCadenas.html" class="botonR">regresar</a>
+    <a href="../buclesJS.html" class="botonR">regresar</a>
   </div>
   <footer class="footerPrincipal">
     <p class="footerP">contactanos en nuestro <a class="footerA" href="mailto:uberalexiolivo@outlook.com">email</a></a></p>
   </footer>
-  <script src="/js/class.js"></script>
+  <script src="/js/introJS.js"></script>
 </body>
 </html>

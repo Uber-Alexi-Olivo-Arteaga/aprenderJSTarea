@@ -13,34 +13,32 @@
     <nav class="navP">
       <div class="navLogo">
         <a href="../../index.html">
-          <img class="imgLogo" src="../../img/logos/logo.png" alt="">
+          <img class="imgLogo" src="../../../img/logos/logo.png" alt="">
           <p class="textNav">Vicious Software</p>
         </a>
       </div>
       <div class="navLinks">
-        <a href="../webNumeros.html" class="navLink">números</a>
-        <a href="../webArreglos.html" class="navLink">arreglos</a>
-        <a href="../webCadenas.html" class="navLink">cadenas</a>
+        <a href="./htmls/webIntroJS.html" class="navLink">introducción a js</a>
+        <a href="./htmls/webNumeros.html" class="navLink">números</a>
+        <a href="./htmls/webArreglos.html" class="navLink">arreglos</a>
+        <a href="./htmls/webCadenas.html" class="navLink">cadenas</a>
       </div>
     </nav>
   </header>
     <main class="contenedorM2">
       <div class="tituloSub">
-        <h1 class="h1Principal">ejercicio 1</h1>
-        <h2 class="h2Principal">
-            1. Declarar una variable para n. 
-            <p>2. Usar un bucle for para iterar desde 1 hasta n.</p>
-            <p> 3. Dentro del bucle, usar una condición if para verificar si el número es par.</p>
-        </h2>
-        
+        <h1 class="h1Principal">par o impar</h1>
+        <h3 class="subTituloT1">1. Declarar una variable para n.</h3>
+        <h3 class="subTituloT1">2. Usar un bucle for para iterar desde 1 hasta n.</h3>
+        <h3 class="subTituloT1">3. Dentro del bucle, usar una condición if para verificar si el número es par.</h3>
       </div>
     <form id="formulario">
       <div class="grupoForm">
-        <label for="numero" class="label">par o impar</label>
-        <input type="number" id="numero" placeholder="ingrese un numero">
+        <label for="num1" class="label">par o impar</label>
+        <input type="number" id="num1" placeholder="Ingrese un número">
       </div>
       <div class="cBotones">
-        <button type="button" class="boton" onclick="clase.paroImpar()">aceptar</button>
+        <button type="button" class="boton" onclick="ejercicios.ejer1()">aceptar</button>
         <button type="reset" class="boton" onclick="limpiarR()">limpiar</button>
       </div>
       <div id="resp">
@@ -49,11 +47,11 @@
     </form>
   </main>
   <div class="cRegresar">
-    <a href="../webCadenas.html" class="botonR">regresar</a>
+    <a href="../condicionesJS.html" class="botonR">regresar</a>
   </div>
   <footer class="footerPrincipal">
     <p class="footerP">contactanos en nuestro <a class="footerA" href="mailto:uberalexiolivo@outlook.com">email</a></a></p>
   </footer>
-  <script src="/js/class.js"></script>
+  <script src="/js/introJS.js"></script>
 </body>
 </html>
